@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1 class="front-text text-white">Contact Form Dialog</h1>
+    <h2 class="front-text text-white">Concept Design</h2>
+    <label class="btn-open" for="frmContactForm"><i class="far fa-envelope"></i><span class="ml-half">Open
+            Form</span></label>
+    <input type="checkbox" id="frmContactForm" />
+    <div class="contact-modal">
+        <div class="contact-form">
+            <form>
+                <div class="contact-wrapper">
+                    <div class="contact-section">
+                        <h2 class="p-none m-none mb-quarter text-white"><i class="far fa-envelope"></i><span
+                                class="ml-half">Contact Me</span></h2>
+                    </div>
+                    <div class="contact-section">
+                        <div class="form-item">
+                            <input id="txtFullName" type="text" placeholder="Full Name (Optional)" />
+                            <label class="lbl-floating" for="txtFullName">Full Name (Optional)</label><i
+                                class="icon text-white fas fa-user"></i>
+                        </div>
+                        <div class="form-item">
+                            <input id="txtEmail" type="email" placeholder="E-Mail Address" />
+                            <label class="lbl-floating" for="txtEmail">E-Mail Address</label><i
+                                class="icon text-white fas fa-at"></i>
+                        </div>
+                        <div class="form-item">
+                            <textarea id="txtContent" placeholder="Your message to the developer" rows="5"></textarea>
+                            <label class="lbl-floating" for="txtContent">Your message to the developer</label><i
+                                class="icon text-white far fa-comment"></i>
+                        </div>
+                    </div>
+                    <div class="contact-section text-right">
+                        <label class="contact-cancel" for="frmContactForm"><i class="fas fa-times-circle"></i><span
+                                class="ml-quarter">Cancel</span></label>
+                        <button class="btn-open ml-whole" type="button"><i class="far fa-paper-plane"></i><span
+                                class="ml-half">Send</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
